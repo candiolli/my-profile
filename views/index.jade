@@ -1,0 +1,333 @@
+extends layout
+
+block content
+  body#page-top(data-spy='scroll', data-target='.navbar')
+    #main-wrapper
+      // Page Preloader
+      #preloader
+        #status
+          .status-mes
+      .columns-block.container
+        .left-col-block.blocks
+          header.header.theiaStickySidebar
+            .profile-img
+              img.img-responsive(src='/images/img-profile.jpg', alt='')
+            .content
+              h1 Leon Weiß
+              span.lead Marketing Consultant
+              .about-text
+                p
+                  | Credibly embrace visionary internal or "organic" sources and business benefits. Collaboratively
+                  | integrate efficient portals rather than customized customer service. Assertively deliver
+                  | frictionless services via leveraged interfaces. Conveniently evisculate accurate sources and
+                  | process-centric expertise.
+                p
+                  | Energistically fabricate customized imperatives through cooperative catalysts for change.
+                p
+                  img.img-responsive(src='/images/Signature.png', alt='')
+              ul.social-icon
+                li
+                  a(href='#')
+                    i.fa.fa-facebook(aria-hidden='true')
+                li
+                  a(href='#')
+                    i.fa.fa-twitter(aria-hidden='true')
+                li
+                  a(href='#')
+                    i.fa.fa-linkedin(aria-hidden='true')
+                li
+                  a(href='#')
+                    i.fa.fa-slack(aria-hidden='true')
+                li
+                  a(href='#')
+                    i.fa.fa-dribbble(aria-hidden='true')
+              ul
+                li 
+                  a(href='/exportProfile') Export Profile
+          // .header
+        // .left-col-block
+        .right-col-block.blocks
+          .theiaStickySidebar
+            section.expertise-wrapper.section-wrapper.gray-bg
+              .container-fluid
+                .row
+                  .col-md-12
+                    .section-title
+                      h2 Expertise
+                // .row
+                .row
+                  .col-md-6
+                    .expertise-item
+                      h3 Professionally drive
+                      p
+                        | Synergistically strategize customer directed resources rather than principle.
+                  .col-md-6
+                    .expertise-item
+                      h3 Seamlessly leverage 
+                      p
+                        | Quickly repurpose reliable customer service with orthogonal ideas. Competently.
+                .row
+                  .col-md-6
+                    .expertise-item
+                      h3 Interactively incubate
+                      p
+                        | Interactively myocardinate high standards in initiatives rather than next-generation.
+                  .col-md-6
+                    .expertise-item
+                      h3 Globally streamline
+                      p
+                        | Dynamically initiate client-based convergence vis-a-vis performance based.
+            // .expertise-wrapper
+            section.section-wrapper.skills-wrapper
+              .container-fluid
+                .row
+                  .col-md-12
+                    .section-title
+                      h2 Skills
+                .row
+                  .col-md-12
+                    .progress-wrapper
+                      .progress-item
+                        span.progress-title Marketing
+                        .progress
+                          .progress-bar(role='progressbar', aria-valuenow='62', aria-valuemin='0', aria-valuemax='100', style='width: 62%')
+                            span.progress-percent  62%
+                        // .progress
+                      // .skill-progress
+                      .progress-item
+                        span.progress-title Market Research
+                        .progress
+                          .progress-bar(role='progressbar', aria-valuenow='90', aria-valuemin='0', aria-valuemax='100', style='width: 90%')
+                            span.progress-percent  90%
+                        // /.progress
+                      // /.skill-progress
+                      .progress-item
+                        span.progress-title Organisational Skills
+                        .progress
+                          .progress-bar(role='progressbar', aria-valuenow='75', aria-valuemin='0', aria-valuemax='100', style='width: 75%;')
+                            span.progress-percent  75%
+                        // /.progress
+                      // /.skill-progress
+                      .progress-item
+                        span.progress-title Communtcation Skills
+                        .progress
+                          .progress-bar(role='progressbar', aria-valuenow='55', aria-valuemin='0', aria-valuemax='100', style='width: 55%;')
+                            span.progress-percent  55%
+                        // /.progress
+                      // /.skill-progress
+                      .progress-item
+                        span.progress-title Project Management
+                        .progress
+                          .progress-bar(role='progressbar', aria-valuenow='55', aria-valuemin='0', aria-valuemax='100', style='width: 80%;')
+                            span.progress-percent  80%
+                        // .progress
+                      // .skill-progress
+                    // /.progress-wrapper
+                // .row
+              // .container-fluid
+            // .skills-wrapper
+            section.section-wrapper.section-experience.gray-bg
+              .container-fluid
+                .row
+                  .col-md-12
+                    .section-title
+                      h2 Work Experience
+                // .row
+                .row
+                  .col-md-12
+                    .content-item
+                      small 2015 - Present
+                      h3 Head of market research
+                      h4 Computer & Motor Ltd.
+                      p United Kingdom, London
+                    // .experience-item
+                    .content-item
+                      small 2012 - 2015
+                      h3 Media Analyst
+                      h4 BizzNiss
+                      p United Kingdom, London
+                    // .experience-item
+                    .content-item
+                      small 2010 - 2012
+                      h3 Budget Administrator
+                      h4 Somsom LLC
+                      p United Kingdom, London
+                    // .experience-item
+                // .row
+              // .container-fluid
+            // .section-experience
+            section.section-wrapper.section-education
+              .container-fluid
+                .row
+                  .col-md-12
+                    .section-title
+                      h2 Education
+                // .row
+                .row
+                  .col-md-12
+                    .content-item
+                      small 2010 - 2012
+                      h3 MA Product Design
+                      h4 University of California
+                      p United Kingdom, London
+                    // .experience-item
+                    .content-item
+                      small 2007 - 2010
+                      h3 Business marketing course
+                      h4 Royal Academy of Business
+                      p United Kingdom, London
+                    // .experience-item
+                    .content-item
+                      small 2002 - 2006
+                      h3 BA (Hons) Design
+                      h4 University of Michigan
+                      p United Kingdom, London
+                    // .experience-item
+                // .row
+              // .container-fluid
+            // .section-education
+            section.section-wrapper.section-interest.gray-bg
+              .container-fluid
+                .row
+                  .col-md-12
+                    .section-title
+                      h2 Interest
+                // .row
+                .row
+                  .col-md-12
+                    .content-item
+                      h3 Books
+                      p
+                        | Proactively extend market-driven e-tailers rather than enterprise-wide supply chains.
+                        | Collaboratively embrace 24/7 processes rather than adaptive users. Seamlessly monetize
+                        | alternative e-business.
+                    .content-item
+                      h3 Sports
+                      p
+                        | Assertively grow optimal methodologies after viral technologies. Appropriately develop
+                        | frictionless technology for adaptive functionalities. Competently iterate functionalized
+                        | networks for best-of-breed services.
+                    .content-item
+                      h3 Art
+                      p
+                        | Dramatically utilize superior infomediaries whereas functional core competencies.
+                        | Enthusiastically repurpose synergistic vortals for customer directed portals. Interactively
+                        | pursue sustainable leadership via.
+                // .row
+            // .section-publications
+            section.section-wrapper.portfolio-section
+              .container-fluid
+                .row
+                  .col-md-12
+                    .section-title
+                      h2 Portfolio
+                .row
+                  .col-md-6
+                    a.portfolio-item(href='#')
+                      .portfolio-thumb
+                        img(src='/images/portfolio-1.jpg', alt='')
+                      .portfolio-info
+                        h3 Creative concepts
+                        small domain.com
+                      // portfolio-info
+                    // .portfolio-item
+                  .col-md-6
+                    a.portfolio-item(href='#')
+                      .portfolio-thumb
+                        img(src='/images/portfolio-2.jpg', alt='')
+                      .portfolio-info
+                        h3 Customer focused
+                        small domain.com
+                      // portfolio-info
+                    // .portfolio-item
+                  .col-md-6
+                    a.portfolio-item(href='#')
+                      .portfolio-thumb
+                        img(src='/images/portfolio-3.jpg', alt='')
+                      .portfolio-info
+                        h3 Management methodology
+                        small domain.com
+                      // portfolio-info
+                    // .portfolio-item
+                  .col-md-6
+                    a.portfolio-item(href='#')
+                      .portfolio-thumb
+                        img(src='/images/portfolio-4.jpg', alt='')
+                      .portfolio-info
+                        h3 Market research
+                        small domain.com
+                      // portfolio-info
+                    // .portfolio-item
+                // /.row
+            // .portfolio
+            section.section-contact.section-wrapper.gray-bg
+              .container-fluid
+                .row
+                  .col-md-12
+                    .section-title
+                      h2 Contact
+                // .row
+                .row
+                  .col-md-12
+                    address
+                      strong Address
+                      br
+                      |                     1355 Market Street, Suite 900
+                      br
+                      |                     San Francisco, CA 94103
+                    address
+                      strong Phone Number
+                      br
+                      |                     +61 3 8376 6284
+                    address
+                      strong Mobile Number
+                      br
+                      |                     987 654 321
+                    address
+                      strong Email
+                      br
+                      a(href='mailto:#') coffee@amelie.me
+                // .row
+                .row
+                  .col-md-12
+                    .feedback-form
+                      h2 Get in touch
+                      form#contactForm(action='sendemail.php', method='POST')
+                        .form-group
+                          label(for='InputName') Name
+                          input#InputName.form-control(type='text', name='name', required='', placeholder='Full Name')
+                        .form-group
+                          label(for='InputEmail') Email address
+                          input#InputEmail.form-control(type='email', name='email', required='', placeholder='Email')
+                        .form-group
+                          label(for='InputSubject') Subject
+                          input#InputSubject.form-control(type='text', name='subject', placeholder='Subject')
+                        .form-group
+                          label.control-label(for='message-text') Message
+                          textarea#message-text.form-control(rows='4', required='', name='message', placeholder='Write message')
+                        button.btn.btn-primary(type='submit') Submit
+                    // .feedback-form
+              // .container-fluid
+            // .section-contact
+            footer.footer
+              .copyright-section
+                .container-fluid
+                  .row
+                    .col-md-12
+                      .copytext
+                        | © Resumex. All rights reserved | Design By: 
+                        a(href='https://themehippo.com') themehippo
+                  // .row
+                // .container-fluid
+              // .copyright-section
+            // .footer
+          // Sticky
+        // .right-col-block
+      // .columns-block
+    // #main-wrapper
+    // jquery
+    script(src='/javascripts/jquery-2.1.4.min.js')
+    // Bootstrap
+    script(src='/javascripts/bootstrap.min.js')
+    script(src='/javascripts/theia-sticky-sidebar.js')
+    script(src='/javascripts/scripts.js')
